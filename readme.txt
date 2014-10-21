@@ -84,9 +84,9 @@ We support multiple choices questions, rating questions and number questions (yo
 = How do I add a poll to my post/page? =
 Follow these steps:
 
-*Create a new poll from https://voicepolls.com/publisher/polls/create
-*After the poll was created, from the dashboard, click "Wordpress" link and copy the WordPress poll code ( e.g. [voicepoll id="XXX"] )
-*Paste the poll code you copied into the blog post/page/section
+* Create a new poll from https://voicepolls.com/publisher/polls/create
+* After the poll was created, from the dashboard, click "Wordpress" link and copy the WordPress poll code ( e.g. [voicepoll id="XXX"] )
+* Paste the poll code you copied into the blog post/page/section
 
 = What is the embed ID and where can I find it? =
 
@@ -122,10 +122,6 @@ For further explanation please visit https://voicepolls.com/publisher/how_to
 `/assets/screenshot-8.png`
 9. Example of tweeted poll
 `/assets/screenshot-9.png`
-10. Trending embeds on Voice Polls (https://voicepolls.com/publisher/sets)
-`/assets/screenshot-10.png`
-11. Voice Polls Mobile app
-`/assets/screenshot-11.png`
 
 == Changelog ==
 
