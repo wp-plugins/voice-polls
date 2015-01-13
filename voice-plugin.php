@@ -3,7 +3,7 @@
 Plugin Name: Voice
 Plugin URI: wordpress.org/extend/plugins/voice/
 Description: Give and gather opinions.
-Version: 1.0.0
+Version: 1.0.1
 Author: Poutsch Corp.
 Author URI: https://voicepolls.com
 License: GPL2
@@ -27,7 +27,7 @@ function addvoice($atts) {
 
   $author = get_option( 'voice_polls' )['id'];
 
-  return "<div class='poutsch_question' style='margin-bottom:15px'><a href='https://voicepolls.com/question/".$id."' target='_blank' class='poutsch_publisher_".$author."'>https://voice.ee/question/".$id."</a></div>";
+  return "<p class='poutsch_question' style='margin-bottom:15px'><a href='https://voicepolls.com/question/".$id."' target='_blank' class='poutsch_publisher_".$author."'>https://voicepolls.com/question/".$id."</a></p><script type='text/javascript'>if(window.voiceLoad){window.voiceLoad();}</script>";
 }
 
 add_shortcode('voicepoll', 'addvoice');
